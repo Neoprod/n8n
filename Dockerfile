@@ -3,4 +3,4 @@ USER root
 RUN mkdir -p /data && chown -R node:node /data
 USER node
 VOLUME /data
-EXPOSE 8000
+EXPOSE 8080
